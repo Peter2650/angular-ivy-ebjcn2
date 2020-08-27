@@ -1,5 +1,14 @@
 .member {
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-  }
-  
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  height: 100%;
+  border-top: 1px solid black;
+}
+
+.left {
+  border-right: 1px solid black;
+  margin-left: 1em;
+}
+.right {
+  border-left: 1px solid black;
+}

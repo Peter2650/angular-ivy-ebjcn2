@@ -1,8 +1,10 @@
 .container {
     display: grid;
+    height: 100%;
 }
 
 tr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
 }

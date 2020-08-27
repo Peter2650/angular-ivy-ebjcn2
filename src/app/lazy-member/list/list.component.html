@@ -3,7 +3,7 @@
         <tr *ngFor="let member of members">
             <td>{{member.name}}</td>
             <td>
-                <a [routerLink]="['/home/lazymember', {outlets: {right: ['edit', member.id]}}]">Edit works - No, no longer</a>
+                <a [routerLink]="['/home/lazymember', {outlets: {lazyright: ['edit', member.id]}}]">Edit works - No, no longer</a>
             </td>
             <td>
                 <a [routerLink]="[{outlets: {lazyright: ['edit', member.id]}}]">Don't work</a>

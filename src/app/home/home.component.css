@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+div {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+a {
+    padding: 1em;
+}

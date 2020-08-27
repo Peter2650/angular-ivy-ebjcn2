@@ -1,0 +1,17 @@
+<div class="container">
+    <table>
+        <tr *ngFor="let member of members">
+            <td>{{member.name}}</td>
+            <td>
+                <a [routerLink]="['/home/member', {outlets: {right: ['edit', member.id]}}]">Edit works</a>
+            </td>
+            <td>
+                <a [routerLink]="[{outlets: {right: ['edit', member.id]}}]">Don't work</a>
+            </td>
+            <td>
+                <a [routerLink]="['../', {outlets: {right: ['edit', member.id]}}]">Works first time</a>
+            </td>
+        </tr>
+
+    </table>
+</div>

@@ -12,3 +12,6 @@
 .right {
   border-left: 1px solid black;
 }
+.text {
+  margin-left: 1em;
+}

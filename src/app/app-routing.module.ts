@@ -21,6 +21,7 @@ const routes: Routes = [
           }
         ]
       },
+        { path: 'lazymember', loadChildren: () => import('./lazy-member/lazy-member.module').then(m => m.LazyMemberModule)}
     ]
   },
   { path: '', redirectTo: 'home', pathMatch: 'full'}
